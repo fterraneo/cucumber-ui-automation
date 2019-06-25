@@ -1,0 +1,21 @@
+{
+  "name": "cucumber-playground",
+  "version": "1.0.0",
+  "description": "A playground for cucumber.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [
+    "cucumber",
+    "selenium"
+  ],
+  "author": "SilverGecko",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^75.0.0",
+    "cucumber": "^5.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.3"
+  },
+  "dependencies": {}
+}
