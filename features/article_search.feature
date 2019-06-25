@@ -10,3 +10,4 @@ Feature: Article Search
     Examples:
     | term | caption |
     | bici  |  Bicicletta  |
+    | scarpe | Scarpe |

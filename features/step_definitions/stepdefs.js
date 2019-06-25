@@ -29,7 +29,8 @@ async function autoUIGetListElementsCaptions(searchTerm) {
         //console.log('length: ' + articles.length);
 
         let base64 = await driver.takeScreenshot();
-        require("fs").writeFile('logs/out.png', base64, {encoding: 'base64'}, function(err) {
+        let filename = new Date().toISOString().replace(/\-/g,'').replace(/\:/g,'').replace(/\./g,'') + '.png';
+        require("fs").writeFile('logs/' + filename, base64, {encoding: 'base64'}, function(err) {
             //console.log('File created');
         });
 
